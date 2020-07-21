@@ -33,6 +33,7 @@ const Footer = () => {
                 <a href="#">Alternative Ads</a>
               </li> */}
             {/* </ul> */}
+            
           </li> 
           
           <li className={cx(styles.nav__item, styles.nav__itemex)}>
@@ -88,10 +89,17 @@ const Footer = () => {
         <div className={styles.legal}>
           {/* <p>&copy; 2020 Something. All rights reserved.</p> */}
           <span>Made with <span className={styles.heart}>♥</span> by cwng</span>
+          
           <div className={styles.legal__links}>
             {/* <span>Made with <span className={styles.heart}>♥</span> by atomb0mb</span> */}
+            <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
+            <a className={styles.bmcbutton} target="_blank" href="https://www.buymeacoffee.com/cwng" rel="external">
+            <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" />
+            <span className={styles.last}>Buy me a coffee</span></a>
           </div>
         </div>
+
+
         
       </footer>);
 }
