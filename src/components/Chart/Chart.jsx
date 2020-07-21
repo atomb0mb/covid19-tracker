@@ -35,6 +35,17 @@ const Chart = () => {
                 backgroundColor: 'rgba(255, 0, 0, 0.5)', 
                 fill: true 
             }],
+            // options: {
+            //     scales: {
+            //       yAxes: [{
+            //         scaleLabel: {
+            //           display: true,
+            //           responsive: true,
+            //           labelString: 'People'
+            //         }
+            //       }]
+            //     }     
+            //   } 
         }}
         />) : null
     
