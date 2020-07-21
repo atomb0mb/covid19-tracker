@@ -1,9 +1,29 @@
 
 # Covid19-Tracker 
+A React JS application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Description
+
+Watching the news about Covid-19 daily, the numbers and data gets everyone's attention. The data can tell us that the virus is spreading quickly through the specific region or entire world. What can we, as developers, do to make the situation better? We can help to spread awareness by visualizing the data. 
+
+## Technology
+
+* [React](https://github.com/facebook/create-react-app)
+* [Material UI](https://material-ui.com/)
+* [Chart.js](https://www.chartjs.org/)
+* [mathdroid api](https://github.com/mathdroid/covid-19-api)
+
+## Scope
+
+The project is going to fetch the live data from the API using Async/Await syntax. The data is fetched from the API and it will create cards displaying the statistics as well as Charts
+
+## Deliverables
+
+Due to API constraints, some data might not be able to display in real-time. E.g recovered patient/person data display for chart.
+
+
+## Guildlines to set up the project
 
 In the project directory, you can run:
 
