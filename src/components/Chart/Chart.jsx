@@ -47,15 +47,15 @@ const Chart = ({data, country}) => {
                           fontSize: 14
                         }
                       }],
-                      xAxes: [ {
-                        //type: 'time',
-                        display: true,
-                        scaleLabel: {
-                          display: true,
-                          labelString: 'Date',
-                          fontColor: '#000000',
-                          fontSize: 14
-                        }}],
+                    //   xAxes: [ {
+                    //     //type: 'time',
+                    //     display: true,
+                    //     scaleLabel: {
+                    //       display: true,
+                    //       labelString: 'Date',
+                    //       fontColor: '#000000',
+                    //       fontSize: 14
+                    //     }}],
                     }     
         }}
         />) : null

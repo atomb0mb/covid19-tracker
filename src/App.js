@@ -45,6 +45,8 @@ class App extends React.Component {
         <Cards data={data}/>
         <CountryPicker handleCountryChange={this.handleCountryChange}></CountryPicker>
         <Chart data={data} country={country}></Chart>
+        <hr></hr>
+        <hr></hr>
         <Footer></Footer>
       </div>
     );
