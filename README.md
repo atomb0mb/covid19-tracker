@@ -20,7 +20,12 @@ The project is going to fetch the live data from the API using Async/Await synta
 
 ## Deliverables
 
-Due to API constraints, some data might not be able to display in real-time. E.g recovered patient/person data display for chart.
+* The initial state of the data display is total number around the world.
+* User can view number of cases of Covid-19 for infected, recovered, deaths.
+* User may select desired country to display the result.
+* User may filter by check/uncheck infected and/or deaths display for chart.
+* The selected country will display in bar view.
+* Due to API constraints, some data might not be able to display in real-time. E.g recovered cases data display for initial chart view.
 
 
 ## Guildlines to set up the project
