@@ -72,12 +72,17 @@ const Footer = () => {
             
             <ul class="nav__ul">
               <li>
-                <a href="https://cwng.webflow.io/" target="_blank" rel="external">About Me</a>
+                <a href="https://cwng.webflow.io/" target="_blank" rel="noopener noreferrer">About Me</a>
               </li>
               
               <li>
-                <a href="https://www.linkedin.com/in/cwng-7135/" target="_blank" rel="external">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/cwng-7135/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </li>
+
+              <li>
+                <a href="https://github.com/atomb0mb/covid19-tracker" target="_blank" rel="noopener noreferrer">Github</a>
+              </li>
+
               
               {/* <li>
                 <a href="#">Sitemap</a>
@@ -91,11 +96,11 @@ const Footer = () => {
           <span>Made with <span className={styles.heart}>♥</span> by cwng</span>
           
           <div className={styles.legal__links}>
-            {/* <span>Made with <span className={styles.heart}>♥</span> by atomb0mb</span> */}
+            {/* <span>Made with <span className={styles.heart}>♥</span> by atomb0mb</span>
             <link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet" />
-            <a className={styles.bmcbutton} target="_blank" href="https://www.buymeacoffee.com/cwng" rel="external">
+            <a className={styles.bmcbutton} target="_blank" href="https://www.buymeacoffee.com/cwng" rel="noopener noreferrer">
             <img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee" />
-            <span className={styles.last}>Buy me a coffee</span></a>
+            <span className={styles.last}>Buy me a coffee</span></a> */}
           </div>
         </div>
 
