@@ -4,7 +4,7 @@ import { fetchUSData } from '../../api';
 // import {Line, Bar } from 'react-chartjs-2';
 import { Bar } from 'react-chartjs-2';
 import styles from './Chart.module.css';
-
+//update
 const Chart = ({data, country}) => {
     // similar way of state: {data}
     // const [dailyData, setDailyData] = useState([]);
