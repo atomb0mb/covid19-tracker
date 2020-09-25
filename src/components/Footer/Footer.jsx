@@ -70,7 +70,7 @@ const Footer = () => {
           <li className={styles.nav__item}>
             <h2 className={styles.nav__title}>Sites</h2>
             
-            <ul class="nav__ul">
+            <ul className="nav__ul">
               <li>
                 <a href="https://cwng.webflow.io/" target="_blank" rel="noopener noreferrer">About Me</a>
               </li>
