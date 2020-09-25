@@ -34,6 +34,20 @@ export const fetchData = async (country) => {
 
 }
 
+export const fetchUSData = async () => {
+
+    try {
+        // new api for US as default
+        const { data: {confirmed, recovered, deaths, lastUpdate} } = await axios.get(`${url}/countries/US`);
+        
+        return { confirmed, recovered, deaths, lastUpdate };
+    } catch (error) {
+        
+    }
+
+
+}
+
 export const fetchDailyData = async () => {
     try {
         const { data } = await axios.get(`${url}/daily`);
