@@ -1,22 +1,21 @@
 import React, {useState, useEffect} from 'react';
 // import { fetchDailyData, fetchUSData } from '../../api';
-import { fetchUSData } from '../../api';
-// import {Line, Bar } from 'react-chartjs-2';
-import { Bar } from 'react-chartjs-2';
+import { fetchDailyData } from '../../api';
+import {Line, Bar } from 'react-chartjs-2';
 import styles from './Chart.module.css';
 //update
 const Chart = ({data, country}) => {
     // similar way of state: {data}
-    // const [dailyData, setDailyData] = useState([]);
-    const [dailyData, setUSData] = useState([]);
+    const [dailyData, setDailyData] = useState([]);
+    // const [dailyData, setUSData] = useState([]);
 
     // console.log(dailyData);
 
     useEffect(()=>{
         const fetchApi = async () => {
             //const dailyData = await fetchDailyData();
-            // setDailyData(await fetchDailyData())
-            setUSData(await fetchUSData())
+            setDailyData(await fetchDailyData())
+            //setUSData(await fetchUSData())
         }
 
         //console.log(dailyData);
@@ -82,7 +81,7 @@ const Chart = ({data, country}) => {
         }}
         options={{
             legend: {display: false },
-            title: {display: true, text: `Current state in ${country ? country : 'USA' }`, fontSize: 16},
+            title: {display: true, text: `Current state in ${country}`, fontSize: 16},
         }}
         />) : null
     );

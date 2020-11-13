@@ -33,7 +33,7 @@ export const fetchData = async (country) => {
 
 
 }
-
+// fetch US only
 export const fetchUSData = async () => {
 
     try {
@@ -47,7 +47,7 @@ export const fetchUSData = async () => {
 
 
 }
-
+// fetch daily data
 export const fetchDailyData = async () => {
     try {
         const { data } = await axios.get(`${url}/daily`);
@@ -70,7 +70,7 @@ export const fetchDailyData = async () => {
     }
     
 }
-
+// fetch data based on country
 export const fetchCountries = async () => {
     try {
         const {data: {countries} } = await axios.get(`${url}/countries`);
