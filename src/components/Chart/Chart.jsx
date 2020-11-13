@@ -86,7 +86,7 @@ const Chart = ({data, country}) => {
         />) : null
     );
 
-
+//test
     // return(<div className={styles.container}>{country ? barChart: lineChart}</div>)
     return(<div className={styles.container}>{barChart}</div>)
 }
