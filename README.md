@@ -1,6 +1,6 @@
 
 # Covid19-Tracker 
-A React JS application that tracks COVID-19 Status. Visit https://atomb0mb.github.io/covid19-tracker/
+A React JS application that tracks COVID-19 Status.
 
 
 ## Project Description
